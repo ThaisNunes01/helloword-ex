@@ -1,11 +1,11 @@
     h1{
 	color: red;
-	font-size: 16pxpx;
+	font-size: 20px;
 	font-family: monospace;
 	}
 	p{
 	color: blue;
-	font-size:12px;
+	font-size:16px;
 	font-family: monospace;
 	}
 	ul{
@@ -15,8 +15,8 @@
 	overflow: hidden;
 	background-color: #333;
 	}
-.jornal {
-	
+    .jornal {
+	padding: 10px;
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
 	-moz-column-count: 3; /* Firefox */
 	column-count: 3;
@@ -29,7 +29,7 @@
 	-moz-column-rule: 1px solid lightblue; 
 	column-rule: 1px solid lightblue;
 
-}
+    }
 	li{
 	float: left;
 	}
@@ -44,3 +44,8 @@
 	background-color: #4CAF50;
 	}
 	
+    img {
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1),
+0 20px 20px 0 rgba(0, 0, 0, 0.25);
+	}
